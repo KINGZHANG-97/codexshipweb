@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0b1820" />
+  <meta name="description" content="浪尖户外路亚艇与钓鱼装备精选商城" />
+  <title>浪尖户外 — 去水上，找答案</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="announcement">探索水域新边界 <span>｜</span> 全场艇类装备满 ¥5,000 免运费 <a href="#shop">立即选购 ↗</a></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="浪尖户外首页"><span class="brand-mark">浪</span><span>浪尖<span class="brand-light">户外</span><small>WAVEFRONT OUTDOORS</small></span></a>
+    <nav class="main-nav" aria-label="主导航"><a href="#shop">全部商品</a><a href="#boats">路亚艇</a><a href="#gear">钓鱼装备</a><a href="#story">探索浪尖</a></nav>
+    <button class="cart-trigger" id="open-cart" aria-label="打开购物车"><span class="bag-icon">▱</span><span class="cart-label">购物车</span><b id="cart-count">0</b></button>
+  </header>
+  <main id="top">
+    <section class="hero" aria-label="品牌介绍"><div class="hero-shade"></div><div class="hero-content"><p class="eyebrow"><i></i> MADE FOR THE OPEN WATER</p><h1>去水上，<br><em>找答案。</em></h1><p class="hero-copy">好装备不替你钓鱼，但能带你去到<br class="desktop-break">鱼真正生活的地方。</p><a class="button button-lime" href="#boats">探索路亚艇 <span>↗</span></a></div><div class="hero-meta"><span>01 / 03</span><span>山野 · 水域 · 自由</span><span>SCROLL TO EXPLORE ↓</span></div></section>
+    <section class="intro" id="story"><div><p class="eyebrow dark">装备，是探索的起点</p><h2>把周末，还给<br>水面和旷野。</h2></div><p class="intro-copy">从第一艘艇，到每一次抛投。我们认真挑选经得起风浪的装备，让每次出发都有底气，让每次归来都值得回味。</p><div class="intro-index">EST. 2018 <span>｜</span> 中国 · 杭州</div></section>
+    <section class="shop-section" id="shop"><div class="section-heading"><div><p class="eyebrow dark">GEAR UP FOR THE WATER</p><h2>为下一次出发，<em>做好准备。</em></h2></div><a class="text-link" href="#products">浏览全部商品 <span>↗</span></a></div>
+      <div class="category-strip"><a class="category active" href="#boats"><span>01</span> 探索者 380 <b>→</b></a><a class="category" href="#story"><span>02</span> 船型亮点 <b>→</b></a><a class="category" href="#gear"><span>03</span> 适用场景 <b>→</b></a><a class="category" href="#gear"><span>04</span> 选艇咨询 <b>→</b></a></div>
+      <div class="product-heading" id="boats"><div><span class="eyebrow dark">OUR SELECTION / 2026</span><h3>探索者 380 <span>— 为认真出发的人准备</span></h3></div><span class="result-count">精选艇型 <b>01</b></span></div>
+      <div class="product-grid" id="products"></div>
+    </section>
+    <section class="feature"><div class="feature-image"></div><div class="feature-copy"><p class="eyebrow">FIELD NOTES / 01</p><h2>水面之上，<br>皆是主场。</h2><p>稳稳站住，才能专注每一次抛投。浪尖艇身以实战为先，从宽体船型到模块化收纳，为你的每一场水上探索留足空间。</p><a href="#boats" class="button button-outline">认识我们的艇 <span>↗</span></a></div></section>
+    <section class="gear-section" id="gear"><div class="gear-title"><p class="eyebrow dark">THE DETAILS MATTER</p><h2>好装备，陪你<br>把小事做好。</h2><p>从船上到岸边，每一件都经过认真挑选。</p><a class="text-link" href="#products">选购配件 ↗</a></div><div class="gear-card"><img src="https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=1000&q=85" alt="水上钓鱼装备" loading="lazy"><div><span>上船好物 · 精选配件</span><b>从细节开始准备 ↗</b></div></div></section>
+  </main>
+  <footer><a class="brand footer-brand" href="#top"><span class="brand-mark">浪</span><span>浪尖<span class="brand-light">户外</span><small>WAVEFRONT OUTDOORS</small></span></a><p>去水上，找答案。　© 2026 浪尖户外</p><a href="#top">回到顶部 ↑</a></footer>
+  <div class="overlay" id="overlay"></div><aside class="cart-drawer" id="cart-drawer" aria-label="购物车" aria-hidden="true"><div class="drawer-head"><div><p class="eyebrow dark">YOUR SELECTION</p><h2>购物车 <span id="drawer-count">(0)</span></h2></div><button id="close-cart" class="close-button" aria-label="关闭购物车">×</button></div><div class="cart-items" id="cart-items"></div><div class="empty-cart" id="empty-cart"><span>▱</span><b>装备还没上船</b><p>去挑一件陪你出发的装备吧。</p><button class="text-link" id="continue-shopping">继续逛逛 ↗</button></div><div class="cart-footer" id="cart-footer"><div class="subtotal"><span>商品小计</span><b id="subtotal">¥0</b></div><p>运费将在结算时确认</p><button class="button button-lime checkout" id="checkout">模拟结算 <span>→</span></button><small>此页面为体验原型，不会产生真实订单或支付。</small></div></aside><div class="toast" id="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>
